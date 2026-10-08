@@ -4,9 +4,7 @@ A retro, cosy music-making app for macOS and Windows.
 
 Impulse Studio began with inspiration from [Impulse Tracker](https://github.com/jthlim/impulse-tracker) and grew into a broader music-making app, with pads, keyboards, visual song arrangement and DJ mixing, while keeping its retro roots.
 
-Build beats, play melodies and turn small ideas into songs. Work with the classic tracker, use pads and a keyboard to record parts, or put everything together in the visual arranger. Switch to DJ mode to mix tracks with two decks, loops and performance pads.
-
-Made by **n3tworkspirits**.
+Build beats, play melodies and turn ideas into songs. Work with the classic tracker, use pads and a keyboard to record parts, or put everything together in the visual arranger. Switch to DJ mode to mix tracks with two decks, loops and performance pads. There's an optional mcp connection, it's more fun if you stay creative but the mcp can help as much or as little as you want.
 
 ## Make music
 
