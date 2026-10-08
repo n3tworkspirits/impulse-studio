@@ -1,0 +1,96 @@
+The palettes, custom glyphs, screen layout and keyboard table in this project
+are derived from the original Impulse Tracker source code
+(https://github.com/jthlim/impulse-tracker), used under the licence below.
+
+The 8x8 ASCII glyphs are the IBM VGA ROM font, public domain, taken from
+https://github.com/dhepper/font8x8.
+
+BSD 3-Clause License
+
+Copyright (c) 2024, Jeffrey Lim
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Bundled audio recordings
+------------------------
+The original instrument recordings in src/recordings are CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Sources: Versilian Studios VSCO 2 Community Edition and VCSL;
+Karoryfer Samples Black and Green Guitars, Big Rusty Drums, Growlybass,
+and 272 Merry Orks; FreePats FSBS Distorted Electric Guitar #2, Lately Bass,
+Synth Bass #1, Synth Bass & Lead and Synth Sci-Fi; Signature Sounds
+Live Children's Choir (performances 19-26).
+
+Source licences are included in src/recordings/licenses. Exact source URLs,
+pinned revisions and source/processed SHA-256 hashes are listed in
+src/recordings/manifest.js. Samples have been converted to stereo 32 kHz
+16-bit WAV, trimmed, level-adjusted and faded; held instruments have
+crossfaded sustain loops. The rolling bass has an added short decay.
+
+https://versilian-studios.com/vsco-community/
+https://github.com/sgossner/VCSL
+https://shop.karoryfer.com/pages/free-samples
+https://freepats.zenvoid.org/
+https://signaturesounds.org/
+
+Additional CC0 samples: Octal House Core (octalmusic/octal-samples), and
+FreePats Sweep Pad, New Age, Synth Fifths, Synth Square and Synth Calliope.
+More recorded percussion and instruments from VCSL are included.
+Pinned source references, source checksums, conversion/tuning details and
+licence copies are retained in tools/recording-sources.json and src/recordings.
+
+CC0 sung voices and vocal chops from Freesound: antoinevg, mooncubedesign,
+ShangusBurger (GameSoundCon 2024 contributors), owstu, Legnalegna55,
+.Andre_Onate and marythewitch. Public HQ MP3 previews are converted to WAV;
+the female scale is sliced into five sung notes, tuning is calibrated and
+sustain loops are added. Source pages and CC0 evidence are retained in
+src/recordings/licenses/freesound-vocals.txt and the recording manifest.
+Additional FreePats Synth Brass 1 and Synth Brass 2 samples are CC0.
+
+Complete audio loops, phrases and ambient textures
+-------------------------------------------------
+Signature Sounds: Loops of Ambience, Industrial Drum Loops, Futura,
+Choirs of Life (Teaser), Orchestral CC0, Basic Zither Loops and Fireplace
+Foley are CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+https://signaturesounds.org/
+
+Psytrance Loop Pack by AX11 (2010), CC BY 3.0:
+https://ccmixter.org/files/AX11/27175
+https://creativecommons.org/licenses/by/3.0/
+
+100 BPM Rhythm Guitar Riffs by Vrezerino, CC BY 4.0:
+https://freesound.org/people/Vrezerino/packs/45261/
+https://creativecommons.org/licenses/by/4.0/
+Public HQ MP3 previews are used for the metal riffs; other packs use original
+WAV/AIFF recordings. All are converted to stereo 32 kHz 16-bit WAV and
+attenuated where necessary. Full timing and releases are preserved.
+Original loops are not shortened, faded or given instrument sustain loops.
+
+Individual titles, creators, source links, licences and checksums are in
+src/recordings/licenses/loop-credits.json and the recording manifest.
+Source credit and licence information is included in src/recordings/licenses,
+available in Sample Playground, and retained with edited samples in projects.
