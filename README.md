@@ -77,6 +77,6 @@ Impulse Studio draws on [Impulse Tracker](https://github.com/jthlim/impulse-trac
 
 Bundled sounds come from several creators and libraries, with their own licences. See [NOTICE](NOTICE) and the [sound library documentation](docs/SOUND_LIBRARIES.md). Credits and licence information are included with the app; sample attribution is also available in Sample Playground.
 
-This repository hosts downloads, release notes and supporting documentation. The Impulse Studio development repository is private.
+This repository hosts downloads, release notes and supporting documentation. The Impulse Studio development repository is private while I work on it.
 
 **n3tworkspirits** · **n3tworkspirits@gmail.com**
